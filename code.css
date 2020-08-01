@@ -1,5 +1,6 @@
 .tabs {
 	position: absolute;
+	z-index: 60;
 	right: 25px;
 	bottom: 30px;
 }
@@ -11,6 +12,7 @@
 
 #run-code {
 	position: absolute;
+	z-index: 60;
 	width: 117px;
 	right: 25px;
 	bottom: 5px;
