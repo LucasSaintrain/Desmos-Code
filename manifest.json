@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Desmos Code",
+	"version": "0.1",
+	"description": "A new way to use your graphing calculator!",
+
+	"content_scripts": [
+	  {
+		"matches": ["https://www.desmos.com/calculator/*"],
+		"js": ["code.js","codemirror/lib/codemirror.js","codemirror/mode/python/python.js",
+					"codemirror/addon/selection/active-line.js","codemirror/addon/edit/matchbrackets.js"],
+		"css": ["code.css","codemirror/lib/codemirror.css","codemirror/theme/mdn-like.css"]
+	  }
+	],
+
+	"web_accessible_resources": ["injectedScript.js","desmosPy.js","skulpt/skulpt.min.js","skulpt/skulpt-stdlib.js"]
+}

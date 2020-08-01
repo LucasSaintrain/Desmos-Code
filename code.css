@@ -1,0 +1,10 @@
+.tabs {
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+
+.dcg-code {
+	position: relative;
+	height: 100%;
+}
